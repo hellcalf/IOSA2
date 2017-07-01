@@ -29,5 +29,10 @@ namespace IOSA
         {
 
         }
+
+        private void ribbonButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

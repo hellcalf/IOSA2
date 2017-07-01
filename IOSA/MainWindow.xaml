@@ -11,6 +11,7 @@
         <Ribbon HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="492" SelectionChanged="Ribbon_SelectionChanged">
             <RibbonComboBox Height="100" Width="100"/>
         </Ribbon>
+        <RibbonButton x:Name="ribbonButton" Content="RibbonButton" HorizontalAlignment="Left" Height="100" Margin="351,104,0,0" VerticalAlignment="Top" Width="100" Click="ribbonButton_Click"/>
 
     </Grid>
 </Window>
