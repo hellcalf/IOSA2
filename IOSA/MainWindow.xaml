@@ -9,6 +9,7 @@
     <Grid>
         <Ribbon HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="492" SelectionChanged="Ribbon_SelectionChanged">
             <RibbonComboBox Height="100" Width="100"/>
+            <Button x:Name="button" Content="Button" Width="75"/>
         </Ribbon>
 
     </Grid>
