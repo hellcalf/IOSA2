@@ -16,7 +16,17 @@
             <ColumnDefinition Width="140*" MaxWidth="949" MinWidth="949"/>
             <ColumnDefinition Width="809*"/>
         </Grid.ColumnDefinitions>
-        <Ribbon HorizontalAlignment="Left" Height="516" VerticalAlignment="Top" Width="1094" SelectionChanged="Ribbon_SelectionChanged" BorderBrush="#FF01070E" Grid.ColumnSpan="3">
+        <Ribbon HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="1102" SelectionChanged="Ribbon_SelectionChanged" BorderBrush="#FF01070E" Grid.ColumnSpan="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" WindowIconVisibility="Hidden" Margin="0,0,0,-8">
+            <Ribbon.QuickAccessToolBar>
+                <RibbonQuickAccessToolBar>
+                    <RibbonQuickAccessToolBar.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FF88B2CF" Offset="0.934"/>
+                            <GradientStop Color="#FE0B283E" Offset="0.637"/>
+                        </LinearGradientBrush>
+                    </RibbonQuickAccessToolBar.Background>
+                </RibbonQuickAccessToolBar>
+            </Ribbon.QuickAccessToolBar>
             <Ribbon.Background>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="#FF88B2CF" Offset="0.934"/>
@@ -24,6 +34,19 @@
                 </LinearGradientBrush>
             </Ribbon.Background>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" Click="RibbonButton_Click_1" BorderBrush="#FF0A0000">
+                <RibbonButton.PressedBackground>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFE3C085" Offset="0"/>
+                        <GradientStop Color="#FFF4CC89" Offset="0.19"/>
+                        <GradientStop Color="#FFF5C777" Offset="0.36"/>
+                        <GradientStop Color="#FFF5BB56" Offset="0.36"/>
+                        <GradientStop Color="#FFF4CE9A" Offset="0.79"/>
+                        <GradientStop Color="#FFB95732" Offset="1"/>
+                    </LinearGradientBrush>
+                </RibbonButton.PressedBackground>
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/wrench-512.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/wrench-512.png" TileMode="Tile"/>
                 </RibbonButton.Background>
