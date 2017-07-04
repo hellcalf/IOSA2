@@ -1,1 +1,15 @@
 C:\Users\Owner\Source\Repos\IOSA22\IOSA\bin\Debug\IOSA.exe.config
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\bin\Debug\IOSA.exe.config
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\bin\Debug\IOSA.exe
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\bin\Debug\IOSA.pdb
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.csprojResolveAssemblyReference.cache
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\MainWindow.g.cs
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\App.g.cs
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA_MarkupCompile.cache
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA_MarkupCompile.lref
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\MainWindow.baml
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.g.resources
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.Properties.Resources.resources
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.csproj.GenerateResource.Cache
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.exe
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.pdb

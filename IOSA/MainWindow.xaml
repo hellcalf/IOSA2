@@ -4,14 +4,61 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IOSA"
-        xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Class="IOSA.MainWindow"
+        xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Name="IOSA" x:Class="IOSA.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="547.34" Width="1108.334" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" Cursor="Hand" AutomationProperties.Name="Iosa">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo/>
+    </Window.TaskbarItemInfo>
     <Grid>
-        <Ribbon HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="492" SelectionChanged="Ribbon_SelectionChanged">
-            <RibbonComboBox Height="100" Width="100"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="145*"/>
+            <ColumnDefinition Width="140*" MaxWidth="949" MinWidth="949"/>
+            <ColumnDefinition Width="809*"/>
+        </Grid.ColumnDefinitions>
+        <Ribbon HorizontalAlignment="Left" Height="516" VerticalAlignment="Top" Width="1094" SelectionChanged="Ribbon_SelectionChanged" BorderBrush="#FF01070E" Grid.ColumnSpan="3">
+            <Ribbon.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF88B2CF" Offset="0.934"/>
+                    <GradientStop Color="#FE7092AB" Offset="0.637"/>
+                </LinearGradientBrush>
+            </Ribbon.Background>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" Click="RibbonButton_Click_1" BorderBrush="#FF0A0000">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/wrench-512.png" TileMode="Tile"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/46529 (1).png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF110101">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/spare_parts_shopping-512.png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0C0000">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/empleados.png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF040000">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/provider.png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/ordenes.png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/reportes.png"/>
+                </RibbonButton.Background>
+            </RibbonButton>
         </Ribbon>
-        <RibbonButton x:Name="ribbonButton" Content="RibbonButton" HorizontalAlignment="Left" Height="100" Margin="351,104,0,0" VerticalAlignment="Top" Width="100" Click="ribbonButton_Click"/>
 
     </Grid>
 </Window>

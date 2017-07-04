@@ -94,5 +94,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\46529 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\wrench-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\spare_parts_shopping-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ordenes.png" />
+    <Resource Include="imagenes\reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\provider_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\provider.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
