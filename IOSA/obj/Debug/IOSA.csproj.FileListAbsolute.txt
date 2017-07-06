@@ -13,3 +13,7 @@ d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.Pr
 d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.csproj.GenerateResource.Cache
 d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.exe
 d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\IOSA.pdb
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\Paginas\UserControl1.g.cs
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\Paginas\UserControl2.g.cs
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\Paginas\UserControl1.baml
+d:\hellie calf\documents\visual studio 2017\Projects\IOSA\IOSA\obj\Debug\Paginas\UserControl2.baml

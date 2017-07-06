@@ -52,7 +52,7 @@
                     <ImageBrush ImageSource="imagenes/wrench-512.png" TileMode="Tile"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303" Click="RibbonButton_Click_2">
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/46529 (1).png"/>
                 </RibbonButton.Background>
@@ -83,7 +83,6 @@
                 </RibbonButton.Background>
             </RibbonButton>
         </Ribbon>
-        <Grid HorizontalAlignment="Left" Height="457" Margin="0,167,0,0" VerticalAlignment="Top" Width="1059" Grid.ColumnSpan="4"/>
-
+        <Grid Name="Ventana_oficial" HorizontalAlignment="Left" Height="457" Margin="0,167,0,0" VerticalAlignment="Top" Width="1059" Grid.ColumnSpan="4"/>
     </Grid>
 </Window>

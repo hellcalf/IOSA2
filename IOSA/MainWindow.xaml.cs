@@ -37,7 +37,18 @@ namespace IOSA
 
         private void RibbonButton_Click_1(object sender, RoutedEventArgs e)
         {
+            //LIMPIAR VENTANA
+            Ventana_oficial.Children.Clear();
+            //AGREGAR NUEVA VISTA HIJA
+            Ventana_oficial.Children.Add(new Paginas.UserControl1());
+        }
 
+        private void RibbonButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            //LIMPIAR VENTANA
+            Ventana_oficial.Children.Clear();
+            //AGREGAR VENTANA VISTA HIJA
+            Ventana_oficial.Children.Add(new Paginas.UserControl2());
         }
     }
 }
