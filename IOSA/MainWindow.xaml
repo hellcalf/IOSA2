@@ -53,36 +53,61 @@
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303" Click="RibbonButton_Click_2">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/46529 (1).png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/46529 (1).png"/>
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF110101">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/spare_parts_shopping-512.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/spare_parts_shopping-512.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0C0000">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/empleados.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/empleados.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF040000">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/provider.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/provider.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/ordenes.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/ordenes.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
             <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+                <RibbonButton.MouseOverBackground>
+                    <ImageBrush ImageSource="imagenes/reportes.png" Stretch="UniformToFill"/>
+                </RibbonButton.MouseOverBackground>
                 <RibbonButton.Background>
                     <ImageBrush ImageSource="imagenes/reportes.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
         </Ribbon>
-        <Grid Name="Ventana_oficial" HorizontalAlignment="Left" Height="457" Margin="0,167,0,0" VerticalAlignment="Top" Width="1059" Grid.ColumnSpan="4"/>
+        <Grid Name="Ventana_oficial" HorizontalAlignment="Left" Height="472" Margin="0,162,-9,0" VerticalAlignment="Top" Width="1068" Grid.ColumnSpan="4">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF99B3C1" Offset="0"/>
+                    <GradientStop Color="#FFC8E5F5" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
     </Grid>
 </Window>
