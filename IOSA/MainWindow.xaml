@@ -6,17 +6,18 @@
         xmlns:local="clr-namespace:IOSA"
         xmlns:Primitives="clr-namespace:System.Windows.Controls.Ribbon.Primitives;assembly=System.Windows.Controls.Ribbon" x:Name="IOSA" x:Class="IOSA.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="547.34" Width="1108.334" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" Cursor="Hand" AutomationProperties.Name="Iosa">
+        Title="IOSA" Height="664.255" Width="1068.762" ScrollViewer.VerticalScrollBarVisibility="Disabled" ResizeMode="NoResize" Cursor="Hand" AutomationProperties.Name="Iosa">
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo/>
     </Window.TaskbarItemInfo>
-    <Grid>
+    <Grid Margin="0,0,4,1">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="145*"/>
-            <ColumnDefinition Width="140*" MaxWidth="949" MinWidth="949"/>
-            <ColumnDefinition Width="809*"/>
+            <ColumnDefinition Width="102*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="949*" MaxWidth="949" MinWidth="949"/>
+            <ColumnDefinition Width="17*"/>
         </Grid.ColumnDefinitions>
-        <Ribbon HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="1102" SelectionChanged="Ribbon_SelectionChanged" BorderBrush="#FF01070E" Grid.ColumnSpan="3" ScrollViewer.VerticalScrollBarVisibility="Disabled" WindowIconVisibility="Hidden" Margin="0,0,0,-8">
+        <Ribbon HorizontalAlignment="Left" Height="162" VerticalAlignment="Top" Width="1068" SelectionChanged="Ribbon_SelectionChanged" BorderBrush="#FF01070E" Grid.ColumnSpan="4" ScrollViewer.VerticalScrollBarVisibility="Disabled" WindowIconVisibility="Hidden" Margin="0,0,-50,0">
             <Ribbon.QuickAccessToolBar>
                 <RibbonQuickAccessToolBar>
                     <RibbonQuickAccessToolBar.Background>
@@ -82,6 +83,7 @@
                 </RibbonButton.Background>
             </RibbonButton>
         </Ribbon>
+        <Grid HorizontalAlignment="Left" Height="457" Margin="0,167,0,0" VerticalAlignment="Top" Width="1059" Grid.ColumnSpan="4"/>
 
     </Grid>
 </Window>
