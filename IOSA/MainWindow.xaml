@@ -34,7 +34,10 @@
                     <GradientStop Color="#FE7092AB" Offset="0.637"/>
                 </LinearGradientBrush>
             </Ribbon.Background>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" Click="RibbonButton_Click_1" BorderBrush="#FF0A0000">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" Click="RibbonButton_Click_1" BorderBrush="#FF0A0000" KeyTip="" ToolTipDescription="" ToolTipTitle="" ToolTipFooterTitle="Préstamos" ToolTipFooterDescription="" CornerRadius="1">
+                <RibbonButton.Background>
+                    <ImageBrush ImageSource="imagenes/wrench-512.png" TileMode="Tile"/>
+                </RibbonButton.Background>
                 <RibbonButton.PressedBackground>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFE3C085" Offset="0"/>
@@ -48,11 +51,8 @@
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/wrench-512.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
-                <RibbonButton.Background>
-                    <ImageBrush ImageSource="imagenes/wrench-512.png" TileMode="Tile"/>
-                </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303" Click="RibbonButton_Click_2">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0E0303" Click="RibbonButton_Click_2" ToolTipTitle="Herramientas">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/46529 (1).png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
@@ -60,7 +60,7 @@
                     <ImageBrush ImageSource="imagenes/46529 (1).png"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF110101">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF110101" ToolTipTitle="Refacciones">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/spare_parts_shopping-512.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
@@ -68,7 +68,7 @@
                     <ImageBrush ImageSource="imagenes/spare_parts_shopping-512.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0C0000">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0C0000" ToolTipTitle="Empleados">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/empleados.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
@@ -76,7 +76,7 @@
                     <ImageBrush ImageSource="imagenes/empleados.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF040000">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF040000" ToolTipTitle="Proveedores">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/provider.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
@@ -84,7 +84,7 @@
                     <ImageBrush ImageSource="imagenes/provider.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101" ToolTipTitle="Ordenes">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/ordenes.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
@@ -92,7 +92,7 @@
                     <ImageBrush ImageSource="imagenes/ordenes.png"/>
                 </RibbonButton.Background>
             </RibbonButton>
-            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101">
+            <RibbonButton Content="RibbonButton" Height="101" Width="109" BorderBrush="#FF0A0101" ToolTipTitle="Reportes">
                 <RibbonButton.MouseOverBackground>
                     <ImageBrush ImageSource="imagenes/reportes.png" Stretch="UniformToFill"/>
                 </RibbonButton.MouseOverBackground>
