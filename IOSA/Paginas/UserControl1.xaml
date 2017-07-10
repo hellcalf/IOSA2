@@ -5,12 +5,53 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:IOSA.Paginas"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="300" d:DesignWidth="300" Width="1068" Height="472">
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="56,108,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="56,153,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="126,112,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="126,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid HorizontalAlignment="Left" Height="221" Margin="112,40,0,0" VerticalAlignment="Top" Width="728" Grid.Column="1"/>
+        <RibbonButton Content="RibbonButton" HorizontalAlignment="Left" Height="100" Margin="269,312,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" BorderBrush="#FF060101">
+            <RibbonButton.PressedBorderBrush>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Plus.ico" Stretch="UniformToFill"/>
+            </RibbonButton.PressedBorderBrush>
+            <RibbonButton.MouseOverBackground>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Plus.ico" Stretch="UniformToFill"/>
+            </RibbonButton.MouseOverBackground>
+            <RibbonButton.Background>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Plus.ico"/>
+            </RibbonButton.Background>
+        </RibbonButton>
+        <RibbonButton Content="RibbonButton" HorizontalAlignment="Left" Height="100" Margin="438,312,0,0" VerticalAlignment="Top" Width="100" Grid.Column="1" BorderBrush="#FF0A0101">
+            <RibbonButton.PressedBorderBrush>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Actions-edit-rename-icon.png" Stretch="UniformToFill"/>
+            </RibbonButton.PressedBorderBrush>
+            <RibbonButton.Background>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Actions-edit-rename-icon.png"/>
+            </RibbonButton.Background>
+            <RibbonButton.MouseOverBackground>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Actions-edit-rename-icon.png" Stretch="UniformToFill"/>
+            </RibbonButton.MouseOverBackground>
+        </RibbonButton>
+        <RibbonButton Content="RibbonButton" HorizontalAlignment="Left" Height="100" Margin="603,310,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Grid.Column="1" BorderBrush="#FF080303">
+            <RibbonButton.PressedBorderBrush>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Button-Cancel-icon.png" Stretch="UniformToFill"/>
+            </RibbonButton.PressedBorderBrush>
+            <RibbonButton.MouseOverBackground>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Button-Cancel-icon.png" Stretch="UniformToFill"/>
+            </RibbonButton.MouseOverBackground>
+            <RibbonButton.Background>
+                <ImageBrush ImageSource="/IOSA;component/imagenes/Button-Cancel-icon.png"/>
+            </RibbonButton.Background>
+            <RibbonButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.047"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RibbonButton.RenderTransform>
+        </RibbonButton>
     </Grid>
 </UserControl>

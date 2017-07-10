@@ -132,6 +132,14 @@
   <ItemGroup>
     <Resource Include="imagenes\provider.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="imagenes\Plus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Actions-edit-rename-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Button-Cancel-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
